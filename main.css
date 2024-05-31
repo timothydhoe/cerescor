@@ -39,8 +39,9 @@ h1 {
 h2 {
   font-size: 3em;
   padding-top: 4em;
-  padding-bottom: 2em;
-  color: #304147;
+  padding-bottom: 1.6em;
+  /* color: #304147; */
+  color: #7BB3C7;
 }
 
 h3 {
@@ -57,11 +58,12 @@ h3 {
 .quote {
   text-align: center;
   padding: 1em 0;
-  border-top: 1px solid red;
+  border-top: 1px solid #7BB3C7;
 }
 
 .quote-large {
     font-family: "source serif 4";
+    color: #7BB3C7;
 }
 
 .quote-name {
@@ -228,11 +230,48 @@ main,
   margin-bottom: 80px;
 }
 
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em
+}
+
+.standout {
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #304147;
+}
+
+.experience-item {
+  margin-bottom: 40px;
+}
+
+
 .img-wrapper {
   display: block;
   overflow: hidden;
   height: 400px;
   width: 100%;
+}
+
+p.experience {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+span.year {
+  font-size: 5em;
+  font-weight: 700;
+  color: #304147;
+}
+
+p.date {
+  font-size: .8em;
+  text-transform: uppercase;
+  color: #7BB3C7;
+  font-weight: 700;
+  margin-bottom: .5em;
 }
 
 .social-media {
@@ -241,9 +280,9 @@ main,
 
 .social-media a {
   text-decoration: none;
-  color: #304147;
+  color: #7BB3C7;
 
-  transition: 300ms ease-in;
+  transition: 150ms ease-in;
 }
 
 .social-media a:hover {
@@ -290,6 +329,10 @@ footer {
 } 
   .service-item {
     width: 100%;
+  }
+  .experience-grid {
+  grid-template-columns: 1fr;
+  gap: 0;
   }
   .footer-wrapper {
     flex-direction: column;
