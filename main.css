@@ -213,7 +213,7 @@ main,
 .header {
   padding-top: 45vh;
   background-color: rgb(144, 144, 150);
-  background-image: url("./assets/603266_Abstract_Animation_Art_1920x1080.mp4");
+  background-image: url("./assets/cerescor-hero-video.mp4");
 }
 
 .service-grid {
@@ -235,15 +235,36 @@ main,
   width: 100%;
 }
 
+.social-media {
+  padding-top: 12px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #304147;
+
+  transition: 300ms ease-in;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+  opacity: .8;
+}
+
+div.icon img {
+  height: 40px;
+}
+
 footer {
   width: 100%;
   background-color: #304147;
   color: #fafafa;
+  padding: 1em 0;
 }
 
 .footer-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 @media (max-width: 800px) {
