@@ -108,6 +108,7 @@ html {
 body {
   margin: 0px;
   font-family: "Inter";
+  background-color: rgba(13, 232, 255, 20%);
 }
 
 .nav {
@@ -247,7 +248,7 @@ main,
   padding: 2em 3em;
   margin-bottom: 15em;
 
-  background-color: rgba(13, 232, 255, 10%);
+  background-color: #fafafa;
   border: 1px solid #AC8839;
   border-radius: 8px;
 }
